@@ -1,7 +1,4 @@
-import React from "react";
+import { render } from "react-dom";
+import { App } from "./App"
 
-function App() {
-  return (
-    <h1>Hello Ignite React</h1>
-  )
-}
+render(<App></App>, document.getElementById('root'));
